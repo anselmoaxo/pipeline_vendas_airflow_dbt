@@ -1,0 +1,46 @@
+# Arquivo de variáveis de ambiente
+.env
+
+# Diretórios e arquivos de log
+*.log
+logs/
+tmp/
+*.tmp
+
+# Diretórios e arquivos do Airflow
+*.astro
+airflow.cfg
+airflow.db
+
+# Arquivos de banco de dados
+*.db
+*.sqlite
+
+# Arquivos e diretórios de build do dbt
+dbt_modules/
+dbt_packages/
+dbt.log
+target/
+manifest.json
+run_results.json
+
+
+# Arquivos de configuração e cache do dbt
+*.yml
+*.yaml
+*.csv
+
+# Arquivos e diretórios de cache
+.cache/
+__pycache__/
+*.pyc
+
+# Diretórios e arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
